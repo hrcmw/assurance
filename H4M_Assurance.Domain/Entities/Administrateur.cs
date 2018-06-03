@@ -9,5 +9,6 @@ namespace H4M_Assurance.Domain.Entities
     public class Administrateur : Utilisateur
     {
         //test comment
+        //ddd
     }
 }
