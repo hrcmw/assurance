@@ -40,10 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CirconstanceConstatService.cs" />
     <Compile Include="ConstatService.cs" />
+    <Compile Include="ContratService.cs" />
     <Compile Include="DocumentService.cs" />
     <Compile Include="DossierService.cs" />
+    <Compile Include="ICirconstanceConstat.cs" />
     <Compile Include="IConstatService.cs" />
+    <Compile Include="IContratService.cs" />
     <Compile Include="IDocumentService.cs" />
     <Compile Include="IDossierService.cs" />
     <Compile Include="IPieceService.cs" />

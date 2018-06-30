@@ -70,6 +70,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssuranceContext.cs" />
+    <Compile Include="Configurations\AdministrateurConfig.cs" />
+    <Compile Include="Configurations\AgentAssureurConfig.cs" />
+    <Compile Include="Configurations\AssureConfig.cs" />
+    <Compile Include="Configurations\ConstatConfig.cs" />
+    <Compile Include="Configurations\ContratConfig.cs" />
+    <Compile Include="Configurations\ExpertConfig.cs" />
+    <Compile Include="Configurations\VehiculeConfig.cs" />
     <Compile Include="Infrastructure\DatabaseFactory.cs" />
     <Compile Include="Infrastructure\Disposable.cs" />
     <Compile Include="Infrastructure\IDatabaseFactory .cs" />
@@ -77,9 +84,9 @@
     <Compile Include="Infrastructure\IUnitOfWork.cs" />
     <Compile Include="Infrastructure\RepositoryBase.cs" />
     <Compile Include="Infrastructure\UnitOfWork.cs" />
-    <Compile Include="Migrations\201805231703161_installation.cs" />
-    <Compile Include="Migrations\201805231703161_installation.Designer.cs">
-      <DependentUpon>201805231703161_installation.cs</DependentUpon>
+    <Compile Include="Migrations\201806112145262_CirconsancsConstats.cs" />
+    <Compile Include="Migrations\201806112145262_CirconsancsConstats.Designer.cs">
+      <DependentUpon>201806112145262_CirconsancsConstats.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -95,12 +102,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Configurations\" />
     <Folder Include="Conventions\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201805231703161_installation.resx">
-      <DependentUpon>201805231703161_installation.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201806112145262_CirconsancsConstats.resx">
+      <DependentUpon>201806112145262_CirconsancsConstats.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

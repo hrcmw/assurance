@@ -18,5 +18,10 @@ namespace H4M_Assurance.Service
         {
 
         }
+
+        public Constat GetConstatById(int id)
+        {
+            return new Constat();
+        }
     }
 }

@@ -30,9 +30,8 @@ namespace H4M_Assurance.Domain.Entities
         public string PuissanceFiscale { get; set; }
 
         public TypeMotorisation Motorisation { get; set; }
-
-
-
+        
+        public ICollection<Contrat> Contrats { get; set; }
 
     }
 }

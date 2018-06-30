@@ -21,5 +21,9 @@ namespace H4M_Assurance.Domain.Entities
         public DateTime DatePermisConduite { get; set; }
 
         public IEnumerable<Vehicule> Vehicules { get; set; }
+
+        public IEnumerable<Constat> Constats { get; set; }
+
+        public ICollection<Contrat> Contrats { get; set; }
     }
 }

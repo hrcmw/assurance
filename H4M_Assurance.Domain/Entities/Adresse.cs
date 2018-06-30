@@ -17,5 +17,13 @@ namespace H4M_Assurance.Domain.Entities
         public string Ville { get; set; }
 
         public string Pays { get; set; }
+
+        public Adresse()
+        {
+            Rue = "";
+            CodePostal = "";
+            Ville = "";
+            Pays = "";
+        }
     }
 }

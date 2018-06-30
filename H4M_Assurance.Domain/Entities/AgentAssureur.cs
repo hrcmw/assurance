@@ -13,5 +13,7 @@ namespace H4M_Assurance.Domain.Entities
         public decimal Salaire { get; set; }
 
         public DateTime DateEmbauche { get; set; }
+
+        public ICollection<Contrat> Contrats { get; set; }
     }
 }

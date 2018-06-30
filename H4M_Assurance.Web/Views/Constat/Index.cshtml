@@ -1,0 +1,183 @@
+﻿@model IEnumerable<H4M_Assurance.Domain.Entities.Constat>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NomDocument)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ordre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CodeConstat)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateSinistre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LieuSinistre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Blesse)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Degats)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ConducteurAssure)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ConducteurTiers)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IdContratTiers)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CodeAgenceTiers)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AssuranceTiers)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AgenceTiers)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ValableDuTiers)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ValableAuTiers)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NomAssureTiers)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AdresseAssureTiers)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TelAssureTiers)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VenantDeAssure)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AllantAAssure)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VenantDeTiers)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AllantATiers)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ObservationsAssure)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ObservationTiers)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EstValide)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateValidation)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NomDocument)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ordre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CodeConstat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateSinistre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LieuSinistre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Blesse)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Degats)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ConducteurAssure)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ConducteurTiers)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IdContratTiers)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CodeAgenceTiers)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AssuranceTiers)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AgenceTiers)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ValableDuTiers)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ValableAuTiers)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NomAssureTiers)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AdresseAssureTiers)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TelAssureTiers)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VenantDeAssure)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AllantAAssure)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VenantDeTiers)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AllantATiers)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ObservationsAssure)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ObservationTiers)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EstValide)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateValidation)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IdDocument }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IdDocument }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IdDocument })
+        </td>
+    </tr>
+}
+
+</table>

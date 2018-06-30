@@ -14,6 +14,12 @@ namespace H4M_Assurance.Domain.Entities
         public string Nom { get; set; }
 
         public string Prenom { get; set; }
-    
+
+
+        public NomComplet()
+        {
+            Nom = "";
+            Prenom = ""; 
+        }
     }
 }

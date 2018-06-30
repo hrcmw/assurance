@@ -28,5 +28,7 @@ namespace H4M_Assurance.Domain.Entities
 
         public Utilisateur UserModif { get; set; }
 
+        public Document Document { get; set; }
+
     }
 }

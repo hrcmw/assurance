@@ -1,6 +1,3 @@
-C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\obj\Debug\H4M_Assurance.Web.csprojAssemblyReference.cache
-C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\obj\Debug\H4M_Assurance.Web.dll
-C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\obj\Debug\H4M_Assurance.Web.pdb
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\ApplicationInsights.config
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\roslyn\csc.exe
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -20,6 +17,7 @@ C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\Antlr3.Runtime.dll
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\EntityFramework.dll
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\H4M_Assurance.Data.dll
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\H4M_Assurance.Domain.dll
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\Microsoft.AI.Agent.Intercept.dll
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\Microsoft.AI.DependencyCollector.dll
@@ -42,6 +40,8 @@ C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\Microsoft.Owin.Security.OAuth.dll
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\Microsoft.Owin.Security.Twitter.dll
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\MySql.Data.dll
+C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\MySql.Data.Entity.EF6.dll
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\Newtonsoft.Json.dll
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\Owin.dll
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\System.Web.Helpers.dll
@@ -52,8 +52,12 @@ C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\System.Web.WebPages.dll
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\System.Web.WebPages.Razor.dll
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\WebGrease.dll
+C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\H4M_Assurance.Data.pdb
+C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\H4M_Assurance.Data.dll.config
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\H4M_Assurance.Domain.pdb
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\H4M_Assurance.Domain.dll.config
+C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\EntityFramework.xml
+C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\EntityFramework.SqlServer.xml
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\Microsoft.AI.DependencyCollector.xml
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\Microsoft.AI.Web.xml
@@ -69,8 +73,6 @@ C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\System.Web.WebPages.Razor.xml
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\Antlr3.Runtime.pdb
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\Newtonsoft.Json.xml
-C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\EntityFramework.xml
-C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\EntityFramework.SqlServer.xml
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\Microsoft.AspNet.Identity.Core.xml
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\Microsoft.AspNet.Identity.Owin.xml
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
@@ -83,10 +85,10 @@ C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\obj\Debug\H4M_Assurance.Web.csprojAssemblyReference.cache
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\obj\Debug\H4M_Assurance.Web.csproj.CoreCompileInputs.cache
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\obj\Debug\H4M_Assurance.Web.csproj.CopyComplete
-C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\H4M_Assurance.Data.dll
-C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\MySql.Data.Entity.EF6.dll
-C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\MySql.Data.dll
-C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\H4M_Assurance.Data.pdb
-C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\H4M_Assurance.Data.dll.config
+C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\obj\Debug\H4M_Assurance.Web.dll
+C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\obj\Debug\H4M_Assurance.Web.pdb
+C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Web\bin\System.Net.Http.Formatting.xml

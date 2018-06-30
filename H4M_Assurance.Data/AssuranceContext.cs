@@ -37,6 +37,20 @@ namespace H4M_Assurance.Data
         public DbSet<DetailOP> LignesOffresPrix { get; set; }
         public DbSet<Remboursement> Remboursements { get; set; }
         public DbSet<Option> Options { get; set; }
+        public DbSet<Circonstance> Circonstances { get; set; }
+        public DbSet<CirconstanceConstat> CirconstancesConstats { get; set; }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Configurations.Add(new Configurations.AdministrateurConfig());
+            modelBuilder.Configurations.Add(new Configurations.AssureConfig());
+            modelBuilder.Configurations.Add(new Configurations.ExpertConfig());
+            modelBuilder.Configurations.Add(new Configurations.ContratConfig());
+            modelBuilder.Configurations.Add(new Configurations.ConstatConfig());
+            modelBuilder.Configurations.Add(new Configurations.AgentAssureurConfig());
+            modelBuilder.Configurations.Add(new Configurations.VehiculeConfig());
+
+        }
 
     }
 }

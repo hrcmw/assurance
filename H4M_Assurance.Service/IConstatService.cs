@@ -10,5 +10,7 @@ namespace H4M_Assurance.Service
 {
     public interface IConstatService: IService<Constat>
     {
+
+        Constat GetConstatById(int id);
     }
 }

@@ -5,8 +5,8 @@ C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Domain\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Domain\bin\Debug\EntityFramework.xml
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Domain\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Domain\obj\Debug\H4M_Assurance.Domain.dll
-C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Domain\obj\Debug\H4M_Assurance.Domain.pdb
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Domain\obj\Debug\H4M_Assurance.Domain.csproj.CoreCompileInputs.cache
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Domain\obj\Debug\H4M_Assurance.Domain.csproj.CopyComplete
+C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Domain\obj\Debug\H4M_Assurance.Domain.dll
+C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Domain\obj\Debug\H4M_Assurance.Domain.pdb
 C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\H4M_Assurance.Domain\obj\Debug\H4M_Assurance.Domain.csprojAssemblyReference.cache

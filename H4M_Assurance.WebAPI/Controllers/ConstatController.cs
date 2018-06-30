@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Description;
 
 namespace H4M_Assurance.WebAPI.Controllers
 {
@@ -20,24 +21,41 @@ namespace H4M_Assurance.WebAPI.Controllers
         }
 
         // GET: api/Constat/5
-        public Constat Get(int id)
+        public IHttpActionResult Get(int id)
         {
-            return constatSvc.GetById((long)id);
+            try
+            {
+                return Ok( constatSvc.GetById((long)id));
+            }
+            catch (Exception ex)
+            {
+                return NotFound();
+            }
+
         }
 
         // POST: api/Constat
-        public void Post([FromBody]Constat c)
+        [ResponseType(typeof(void))]
+        public IHttpActionResult Post([FromBody]Constat c)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
             constatSvc.Add(c);
             constatSvc.Commit();
+
+            return CreatedAtRoute("DefaultApi", new { id = c.IdDocument }, c);
         }
 
         // PUT: api/Constat/5
-        public void Put(string id, [FromBody]Constat c)
+        [ResponseType(typeof(void))]
+        public IHttpActionResult Put(string id, [FromBody]Constat c)
         {
             c.IdContratTiers = id;
             constatSvc.Update(c);
             constatSvc.Commit();
+            return StatusCode(HttpStatusCode.NoContent);
         }
 
         // DELETE: api/Constat/5
