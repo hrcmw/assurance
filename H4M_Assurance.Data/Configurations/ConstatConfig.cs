@@ -13,7 +13,7 @@ namespace H4M_Assurance.Data.Configurations
         public ConstatConfig()
         {
             HasKey(c => c.IdDocument);
-           // HasRequired(c => c.ContratAssure).WithMany(cr => cr.Constats).HasForeignKey(c => c.IdContrat).WillCascadeOnDelete(false);
+            HasRequired(c => c.ContratAssure).WithMany(cr => cr.Constats).HasForeignKey(c => c.IdContrat).WillCascadeOnDelete(false);
         }
     }
 }
