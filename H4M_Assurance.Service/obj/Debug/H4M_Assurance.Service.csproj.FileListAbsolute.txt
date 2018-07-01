@@ -22,9 +22,7 @@ C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Service\bin\Debug\H4M_Assura
 C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Service\bin\Debug\H4M_Assurance.Data.dll
 C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Service\bin\Debug\H4M_Assurance.Domain.dll
 C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Service\bin\Debug\Service.Pattern.dll
-C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Service\bin\Debug\MySql.Data.Entity.EF6.dll
 C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Service\bin\Debug\EntityFramework.dll
-C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Service\bin\Debug\MySql.Data.dll
 C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Service\bin\Debug\H4M_Assurance.Data.pdb
 C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Service\bin\Debug\H4M_Assurance.Data.dll.config
 C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Service\bin\Debug\H4M_Assurance.Domain.pdb

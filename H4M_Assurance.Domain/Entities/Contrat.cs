@@ -22,9 +22,9 @@ namespace H4M_Assurance.Domain.Entities
 
         public DateTime DateModif { get; set; }
 
-        public int IdUserModif { get; set; }
+        //public int IdUserModif { get; set; }
 
-        public AgentAssureur UserModif { get; set; }
+        //public AgentAssureur UserModif { get; set; }
 
         public int AssureId { get; set; }
         public Assure Assure { get; set; }

@@ -38,5 +38,5 @@ C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Data\obj\Debug\H4M_Assurance
 C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Data\obj\Debug\H4M_Assurance.Data.csproj.CopyComplete
 C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Data\obj\Debug\H4M_Assurance.Data.dll
 C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Data\obj\Debug\H4M_Assurance.Data.pdb
-C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Data\obj\Debug\H4M_Assurance.Data.Migrations.dbcreat.resources
+C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Data\obj\Debug\H4M_Assurance.Data.Migrations.create.resources
 C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Data\obj\Debug\H4M_Assurance.Data.csproj.GenerateResource.cache

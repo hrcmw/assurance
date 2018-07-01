@@ -40,10 +40,8 @@ C:\Users\chake\Documents\Visual Studio 2015\Projects\H4M_Assurance\Service.Patte
 C:\Users\chake\Source\Repos\assurance\Service.Pattern\bin\Debug\Service.Pattern.dll
 C:\Users\chake\Source\Repos\assurance\Service.Pattern\bin\Debug\Service.Pattern.pdb
 C:\Users\chake\Source\Repos\assurance\Service.Pattern\bin\Debug\H4M_Assurance.Data.dll
-C:\Users\chake\Source\Repos\assurance\Service.Pattern\bin\Debug\MySql.Data.Entity.EF6.dll
 C:\Users\chake\Source\Repos\assurance\Service.Pattern\bin\Debug\EntityFramework.dll
 C:\Users\chake\Source\Repos\assurance\Service.Pattern\bin\Debug\H4M_Assurance.Domain.dll
-C:\Users\chake\Source\Repos\assurance\Service.Pattern\bin\Debug\MySql.Data.dll
 C:\Users\chake\Source\Repos\assurance\Service.Pattern\bin\Debug\H4M_Assurance.Data.pdb
 C:\Users\chake\Source\Repos\assurance\Service.Pattern\bin\Debug\H4M_Assurance.Data.dll.config
 C:\Users\chake\Source\Repos\assurance\Service.Pattern\bin\Debug\EntityFramework.xml

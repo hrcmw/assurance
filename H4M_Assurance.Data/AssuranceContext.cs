@@ -9,7 +9,7 @@ using System.Xml.Linq;
 
 namespace H4M_Assurance.Data
 {
-    [DbConfigurationType(typeof(MySql.Data.Entity.MySqlEFConfiguration))]
+    //[DbConfigurationType(typeof(MySql.Data.Entity.MySqlEFConfiguration))]
     public class AssuranceContext : DbContext
     {
         public AssuranceContext() : base("name=Assurance")
@@ -42,13 +42,13 @@ namespace H4M_Assurance.Data
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            //modelBuilder.Configurations.Add(new Configurations.AdministrateurConfig());
-            //modelBuilder.Configurations.Add(new Configurations.AssureConfig());
-            //modelBuilder.Configurations.Add(new Configurations.ExpertConfig());
-            //modelBuilder.Configurations.Add(new Configurations.ContratConfig());
-            //modelBuilder.Configurations.Add(new Configurations.ConstatConfig());
-            //modelBuilder.Configurations.Add(new Configurations.AgentAssureurConfig());
-            //modelBuilder.Configurations.Add(new Configurations.VehiculeConfig());
+            modelBuilder.Configurations.Add(new Configurations.AdministrateurConfig());
+            modelBuilder.Configurations.Add(new Configurations.AssureConfig());
+            modelBuilder.Configurations.Add(new Configurations.ExpertConfig());
+            modelBuilder.Configurations.Add(new Configurations.ContratConfig());
+            modelBuilder.Configurations.Add(new Configurations.ConstatConfig());
+            modelBuilder.Configurations.Add(new Configurations.AgentAssureurConfig());
+            modelBuilder.Configurations.Add(new Configurations.VehiculeConfig());
 
         }
 

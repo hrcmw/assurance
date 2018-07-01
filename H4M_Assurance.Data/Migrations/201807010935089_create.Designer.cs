@@ -7,13 +7,13 @@ namespace H4M_Assurance.Data.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class dbcreat : IMigrationMetadata
+    public sealed partial class create : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(dbcreat));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(create));
         
         string IMigrationMetadata.Id
         {
-            get { return "201807010920217_dbcreat"; }
+            get { return "201807010935089_create"; }
         }
         
         string IMigrationMetadata.Source
