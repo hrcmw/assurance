@@ -16,7 +16,7 @@ namespace H4M_Assurance.Domain.Entities
 
         public Contrat Contrat { get; set; }
 
-        public IEnumerable<Document> Documents { get; set; }
+        public ICollection<Document> Documents { get; set; }
 
 
     }

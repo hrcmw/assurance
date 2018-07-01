@@ -22,7 +22,7 @@ namespace H4M_Assurance.Domain.Entities
 
         public Utilisateur UserModif { get; set; }
 
-        public IEnumerable<DetailOP> Pieces { get; set; }
+        public ICollection<DetailOP> Pieces { get; set; }
 
         public Expert Validateur { get; set; }
 

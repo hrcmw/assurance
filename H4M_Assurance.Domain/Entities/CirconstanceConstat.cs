@@ -16,7 +16,7 @@ namespace H4M_Assurance.Domain.Entities
 
         public int GraviteCirconstanceConstat { get; set; }
 
-        public IEnumerable<Constat> Constats { get; set; }
+        public ICollection<Constat> Constats { get; set; }
 
     }
 }

@@ -22,10 +22,10 @@ namespace H4M_Assurance.Domain.Entities
 
         public bool Degats { get; set; }
 
-        public IEnumerable<NomComplet> Temoins { get; set; }
+        public ICollection<NomComplet> Temoins { get; set; }
 
-        [ForeignKey("IdContratAssure")]
-        public int IdContrat { get; set; }
+        
+        public string IdContrat { get; set; }
         public Contrat ContratAssure { get; set; }
         
         public Conducteur ConducteurAssure { get; set; }

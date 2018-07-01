@@ -20,6 +20,6 @@ namespace H4M_Assurance.Domain.Entities
 
         public Expert ExpModif { get; set; }
 
-        public IEnumerable<DetailDiag> MyProperty { get; set; }
+        public ICollection<DetailDiag> MyProperty { get; set; }
     }
 }

@@ -7,13 +7,13 @@ namespace H4M_Assurance.Data.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class CirconsancsConstats : IMigrationMetadata
+    public sealed partial class dbcreat : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(CirconsancsConstats));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(dbcreat));
         
         string IMigrationMetadata.Id
         {
-            get { return "201806112145262_CirconsancsConstats"; }
+            get { return "201807010920217_dbcreat"; }
         }
         
         string IMigrationMetadata.Source

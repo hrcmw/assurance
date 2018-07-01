@@ -16,7 +16,7 @@ namespace H4M_Assurance.Domain.Entities
 
         public int Ordre { get; set; }
 
-        public virtual IEnumerable<PieceJointe> PiecesJointes { get; set; }
+        public virtual ICollection<PieceJointe> PiecesJointes { get; set; }
 
         public Dossier Dossier { get; set; }
     }

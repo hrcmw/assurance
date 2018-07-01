@@ -32,7 +32,7 @@ namespace H4M_Assurance.Domain.Entities
 
         public string RegistreCommerce { get; set; }
 
-        public IEnumerable<FactureReparation> Factures { get; set; }
+        public ICollection<FactureReparation> Factures { get; set; }
 
     }
 }

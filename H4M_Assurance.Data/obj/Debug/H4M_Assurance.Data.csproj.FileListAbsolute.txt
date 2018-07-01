@@ -34,9 +34,9 @@ C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Data\bin\Debug\EntityFramewo
 C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Data\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Data\bin\Debug\Google.Protobuf.xml
 C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Data\obj\Debug\H4M_Assurance.Data.csprojAssemblyReference.cache
-C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Data\obj\Debug\H4M_Assurance.Data.Migrations.CirconsancsConstats.resources
-C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Data\obj\Debug\H4M_Assurance.Data.csproj.GenerateResource.cache
 C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Data\obj\Debug\H4M_Assurance.Data.csproj.CoreCompileInputs.cache
 C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Data\obj\Debug\H4M_Assurance.Data.csproj.CopyComplete
 C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Data\obj\Debug\H4M_Assurance.Data.dll
 C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Data\obj\Debug\H4M_Assurance.Data.pdb
+C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Data\obj\Debug\H4M_Assurance.Data.Migrations.dbcreat.resources
+C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Data\obj\Debug\H4M_Assurance.Data.csproj.GenerateResource.cache

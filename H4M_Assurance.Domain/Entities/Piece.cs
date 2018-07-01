@@ -18,10 +18,10 @@ namespace H4M_Assurance.Domain.Entities
 
         public string Description { get; set; }
 
-        public IEnumerable<DetailOP> OffresPrix { get; set; }
+        public ICollection<DetailOP> OffresPrix { get; set; }
 
-        public IEnumerable<DetailFR> FacturesReparation { get; set; }
+        public ICollection<DetailFR> FacturesReparation { get; set; }
 
-        public IEnumerable<DetailDiag> Diagnostiques { get; set; }
+        public ICollection<DetailDiag> Diagnostiques { get; set; }
     }
 }

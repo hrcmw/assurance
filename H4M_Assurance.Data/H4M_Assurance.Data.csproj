@@ -84,9 +84,9 @@
     <Compile Include="Infrastructure\IUnitOfWork.cs" />
     <Compile Include="Infrastructure\RepositoryBase.cs" />
     <Compile Include="Infrastructure\UnitOfWork.cs" />
-    <Compile Include="Migrations\201806112145262_CirconsancsConstats.cs" />
-    <Compile Include="Migrations\201806112145262_CirconsancsConstats.Designer.cs">
-      <DependentUpon>201806112145262_CirconsancsConstats.cs</DependentUpon>
+    <Compile Include="Migrations\201807010920217_dbcreat.cs" />
+    <Compile Include="Migrations\201807010920217_dbcreat.Designer.cs">
+      <DependentUpon>201807010920217_dbcreat.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -105,8 +105,8 @@
     <Folder Include="Conventions\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201806112145262_CirconsancsConstats.resx">
-      <DependentUpon>201806112145262_CirconsancsConstats.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201807010920217_dbcreat.resx">
+      <DependentUpon>201807010920217_dbcreat.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

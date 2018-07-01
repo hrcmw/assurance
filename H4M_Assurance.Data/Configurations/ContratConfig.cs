@@ -23,15 +23,15 @@ namespace H4M_Assurance.Data.Configurations
                 .HasForeignKey(c => c.IdVehicule)
                 .WillCascadeOnDelete(false);
 
-            HasRequired(c => c.Usercreat)
-                .WithMany(u => u.Contrats)
-                .HasForeignKey(c => c.IdUserCreat)
-                .WillCascadeOnDelete(false);
+            //HasRequired(c => c.Usercreat)
+            //    .WithMany(u => u.Contrats)
+            //    .HasForeignKey(c => c.IdUserCreat)
+            //    .WillCascadeOnDelete(false);
 
-            HasRequired(c => c.UserModif)
-                .WithMany(u => u.Contrats)
-                .HasForeignKey(c => c.IdUserModif)
-                .WillCascadeOnDelete(false);
+            //HasRequired(c => c.UserModif)
+            //    .WithMany(u => u.Contrats)
+            //    .HasForeignKey(c => c.IdUserModif)
+            //    .WillCascadeOnDelete(false);
         }
     }
 }
