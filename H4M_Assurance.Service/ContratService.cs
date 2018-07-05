@@ -22,7 +22,10 @@ namespace H4M_Assurance.Service
 
         public Contrat getContrat(string idContrat)
         {
-            return ut.getRepository<Contrat>().Get(c => c.IdContrat == idContrat);
+            Contrat ctr= ut.getRepository<Contrat>().Get(c => c.IdContrat == idContrat);
+            ctr.Assure= ut.getRepository<Assure>().Get(c => c.IdUtilisateur == ctr.AssureId);
+            ctr.Vehicule= ut.getRepository<Vehicule>().Get(c => c.IdVehicule == ctr.IdVehicule);
+            return ctr;
         }
     }
 }

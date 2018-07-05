@@ -1,0 +1,226 @@
+﻿@model H4M_Assurance.Domain.Entities.Constat
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Constat</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NomDocument)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomDocument)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ordre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ordre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CodeConstat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CodeConstat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateSinistre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateSinistre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LieuSinistre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LieuSinistre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Blesse)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Blesse)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Degats)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Degats)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ConducteurAssure)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ConducteurAssure)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ConducteurTiers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ConducteurTiers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IdContratTiers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IdContratTiers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CodeAgenceTiers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CodeAgenceTiers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AssuranceTiers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AssuranceTiers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AgenceTiers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AgenceTiers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ValableDuTiers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ValableDuTiers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ValableAuTiers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ValableAuTiers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NomAssureTiers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomAssureTiers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AdresseAssureTiers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AdresseAssureTiers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TelAssureTiers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TelAssureTiers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VenantDeAssure)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VenantDeAssure)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AllantAAssure)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AllantAAssure)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VenantDeTiers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VenantDeTiers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AllantATiers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AllantATiers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ObservationsAssure)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ObservationsAssure)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ObservationTiers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ObservationTiers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EstValide)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EstValide)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateValidation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateValidation)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IdDocument }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

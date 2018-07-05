@@ -1,0 +1,14 @@
+C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Domain\bin\Release\H4M_Assurance.Domain.dll.config
+C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Domain\bin\Release\H4M_Assurance.Domain.dll
+C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Domain\bin\Release\H4M_Assurance.Domain.pdb
+C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Domain\bin\Release\EntityFramework.dll
+C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Domain\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Domain\bin\Release\Newtonsoft.Json.dll
+C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Domain\bin\Release\EntityFramework.xml
+C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Domain\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Domain\bin\Release\Newtonsoft.Json.xml
+C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Domain\obj\Release\H4M_Assurance.Domain.csprojAssemblyReference.cache
+C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Domain\obj\Release\H4M_Assurance.Domain.csproj.CoreCompileInputs.cache
+C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Domain\obj\Release\H4M_Assurance.Domain.csproj.CopyComplete
+C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Domain\obj\Release\H4M_Assurance.Domain.dll
+C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Domain\obj\Release\H4M_Assurance.Domain.pdb

@@ -1,0 +1,66 @@
+﻿@model H4M_Assurance.Domain.Entities.Diagnostique
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Diagnostique</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NomDocument)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomDocument)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ordre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ordre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CodeDiag)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CodeDiag)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateCreat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateCreat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateModif)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateModif)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IdDocument }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

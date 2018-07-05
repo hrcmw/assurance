@@ -23,9 +23,9 @@ namespace H4M_Assurance.Domain.Entities
         public bool Degats { get; set; }
 
         public ICollection<NomComplet> Temoins { get; set; }
-
         
         public string IdContrat { get; set; }
+
         public Contrat ContratAssure { get; set; }
         
         public Conducteur ConducteurAssure { get; set; }
@@ -54,20 +54,25 @@ namespace H4M_Assurance.Domain.Entities
 
         public string TelAssureTiers { get; set; }
 
+        [Display(Name ="Venant de")]
         public string VenantDeAssure { get; set; }
 
+        [Display(Name = "Allant à")]
         public string AllantAAssure { get; set; }
 
+        [Display(Name = "Venant de")]
         public string VenantDeTiers { get; set; }
 
+        [Display(Name = "Allant à")]
         public string AllantATiers { get; set; }
 
+        [Display(Name = "Observation")]
         public string ObservationsAssure { get; set; }
 
+        [Display(Name = "Observation")]
         public string ObservationTiers { get; set; }
 
         public bool EstValide { get; set; }
-
         
         [DataType(DataType.Date)]
         public DateTime DateValidation { get; set; }

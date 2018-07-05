@@ -23,7 +23,7 @@ namespace H4M_Assurance.WebAPI.Controllers
         // GET: api/Contrat/5
         public IHttpActionResult Get(string idContrat)
         {
-            return Ok( idContrat==string.Empty? svcContrat.GetAll(): (from c in svcContrat.GetAll() where (c.IdContrat==idContrat) select c));
+            return Ok( svcContrat.getContrat(idContrat) );
         }
 
         // POST: api/Contrat

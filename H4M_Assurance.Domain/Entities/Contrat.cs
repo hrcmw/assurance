@@ -41,6 +41,12 @@ namespace H4M_Assurance.Domain.Entities
 
         public decimal Prime { get; set; }
 
+        [DataType(DataType.DateTime)]
+        public DateTime ValableDu { get; set; }
+
+        [DataType(DataType.DateTime)]
+        public DateTime ValableAu { get; set; }
+
         public ICollection<Option> Options { get; set; }
 
         public ICollection<Dossier> Dossiers { get; set; }

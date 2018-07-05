@@ -10,5 +10,6 @@ namespace H4M_Assurance.Service
 {
     public interface IContratService : IService<Contrat>
     {
+        Contrat getContrat(string idContrat);
     }
 }

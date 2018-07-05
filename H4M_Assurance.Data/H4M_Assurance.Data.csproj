@@ -77,6 +77,7 @@
     <Compile Include="Configurations\ContratConfig.cs" />
     <Compile Include="Configurations\ExpertConfig.cs" />
     <Compile Include="Configurations\VehiculeConfig.cs" />
+    <Compile Include="Conventions\DateTimeConvention.cs" />
     <Compile Include="Infrastructure\DatabaseFactory.cs" />
     <Compile Include="Infrastructure\Disposable.cs" />
     <Compile Include="Infrastructure\IDatabaseFactory .cs" />
@@ -87,6 +88,10 @@
     <Compile Include="Migrations\201807010935089_create.cs" />
     <Compile Include="Migrations\201807010935089_create.Designer.cs">
       <DependentUpon>201807010935089_create.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807011312223_validite contrat.cs" />
+    <Compile Include="Migrations\201807011312223_validite contrat.Designer.cs">
+      <DependentUpon>201807011312223_validite contrat.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -101,12 +106,13 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Conventions\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201807010935089_create.resx">
       <DependentUpon>201807010935089_create.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807011312223_validite contrat.resx">
+      <DependentUpon>201807011312223_validite contrat.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

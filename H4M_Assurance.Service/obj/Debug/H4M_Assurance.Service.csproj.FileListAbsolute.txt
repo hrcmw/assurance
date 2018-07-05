@@ -34,3 +34,5 @@ C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Service\obj\Debug\H4M_Assura
 C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Service\obj\Debug\H4M_Assurance.Service.csproj.CopyComplete
 C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Service\obj\Debug\H4M_Assurance.Service.dll
 C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Service\obj\Debug\H4M_Assurance.Service.pdb
+C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Service\bin\Debug\Newtonsoft.Json.dll
+C:\Users\chake\Source\Repos\assurance\H4M_Assurance.Service\bin\Debug\Newtonsoft.Json.xml

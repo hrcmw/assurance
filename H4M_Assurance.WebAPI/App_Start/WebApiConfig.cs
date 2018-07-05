@@ -18,11 +18,11 @@ namespace H4M_Assurance.WebAPI
             config.SuppressDefaultHostAuthentication();
             config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
 
-            //var json = config.Formatters.JsonFormatter;
-            //json.SerializerSettings.PreserveReferencesHandling = Newtonsoft.Json.PreserveReferencesHandling.Objects;
-            //json.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Serialize;
-            //json.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
-            //json.SerializerSettings.Formatting = Newtonsoft.Json.Formatting.Indented;
+            var json = config.Formatters.JsonFormatter;
+            json.SerializerSettings.PreserveReferencesHandling = Newtonsoft.Json.PreserveReferencesHandling.Objects;
+            json.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+            json.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+            json.SerializerSettings.Formatting = Newtonsoft.Json.Formatting.Indented;
 
             var cors = new EnableCorsAttribute("*", "*", "*");
             config.EnableCors(cors);

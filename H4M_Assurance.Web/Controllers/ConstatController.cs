@@ -66,6 +66,8 @@ namespace H4M_Assurance.Web.Controllers
             {
                 ConducteurAssure = new Conducteur(),
                 ConducteurTiers=new Conducteur()
+                
+                
             };
             return View(constat);
         }
